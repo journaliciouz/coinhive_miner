@@ -1,1 +1,1 @@
-# coinhive_miner
+A test of the CoinHive JS Monero miner for Version 2.
